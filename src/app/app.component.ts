@@ -12,23 +12,30 @@ export class AppComponent {
     this.products = [
       new Product(
         'MYSHOES',
-        'Black Running Shoes',
-        '/assets/images/products/black-shoes.jpg',
-        ['Men', 'Shoes', 'Running Shoes'],
+        'Zapatos para correr Negros - Nike Revolution 5',
+        'assets/images/products/black-shoes.jpg',
+        ['Hombres', 'Zapatos', 'Zapatos para correr'],
         109.99
       ),
       new Product(
         'NEATOJACKET',
-        'Blue Jacket',
-        '/assets/images/products/blue-jacket.jpg',
-        ['Women', 'Apparel', 'Jackets & Vests'],
+        'Chaqueta azul - Adidas Hip',
+        'assets/images/products/blue-jacket.jpg',
+        ['Mujeres', 'Vestimenta', 'Chaquetas y chalecos'],
         238.99
       ),
       new Product(
+        'ORANGESHOES',
+        'Neon Orange - Balenciaga Speed 2.0',
+        'assets/images/products/orange-shoes.jpg',
+        ['Mujeres', 'Zapatos', 'Zapatos para correr'],
+        459.99
+      ),
+      new Product(
         'NICEHAT',
-        'A Nice Black Hat',
-        '/assets/images/products/black-hat.jpg',
-        ['Men', 'Accessories', 'Hats'],
+        'Gorra Negra - Adidas Golf Performance',
+        'assets/images/products/black-hat.jpg',
+        ['Hombres', 'Accesorios', 'Gorras'],
         29.99
       )
     ];
